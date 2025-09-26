@@ -12,13 +12,13 @@ let package = Package(
             targets: ["ZDAttachmentUploader", "ZDAttachmentUploaderPackage"])
     ],
     dependencies: [
-        .package(url: "https://github.com/zoho/ZohoDeskPlatformUIKit.git", exact: "2.0.0-beta.16"),
-        .package(url: "https://github.com/zoho/ZDHelperKit-iOS.git", exact: "2.0.0")
+        .package(url: "https://github.com/zoho/ZohoDeskPlatformUIKit.git", exact: "2.0.0-beta.17"),
+        .package(url: "https://github.com/zoho/ZDHelperKit-iOS.git", exact: "2.0.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "ZDAttachmentUploader", url: "https://maven.zohodl.com/ZohoDesk/ZDAttachmentUploader/1.0.0/ZDAttachmentUploader.zip", checksum: "14ec138ebeffe7c26445aa0ab2dcd7ff340f57bcdc73f552cc78597176f03405"),
+        .binaryTarget(name: "ZDAttachmentUploader", url: "https://maven.zohodl.com/ZohoDesk/ZDAttachmentUploader/1.0.1/ZDAttachmentUploader.zip", checksum: "a008282187a0b81d6703020fc911422de81bd7d0153238973139f9355ebb842d"),
         
         .target(
             name: "ZDAttachmentUploaderPackage",
